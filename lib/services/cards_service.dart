@@ -4,7 +4,7 @@ import 'package:http/http.dart';
 
 class CardsServices {
   final String _endpoint='https://api.pokemontcg.io/v2/cards';
-  final String apikey ='59165503-41e2-44b6-b9cf-08af3e3a4128';
+  final String apikey ='';//Rellenar con tu api
 
   Future<List<PokemonCard>> getCards() async {
     List<PokemonCard> cards = [];
